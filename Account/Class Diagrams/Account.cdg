@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Account">
+  <ClassDiagramComponents>
+    <Interface name="Account" package="org.domain.account" visibility="publıc" xPosition="253.0" yPosition="65.0">
+      <Methods>
+        <Method name="makeDeposit" returnType="boolean" visibility="publıc">
+          <Argument type="float" name="amt"/>
+        </Method>
+      </Methods>
+    </Interface>
+    <Class name="CheckingAccount" package="org.domain.account" visibility="publıc" xPosition="124.0" yPosition="263.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="SavingsAccount" package="org.domain.account" visibility="publıc" xPosition="534.0" yPosition="192.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="org.domain.account.SavingsAccount" target="org.domain.account.Account"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="org.domain.account.CheckingAccount" target="org.domain.account.Account"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
