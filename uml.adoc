@@ -1,0 +1,16 @@
+image::..\Desktop\umlresim1.PNG[]
+
+Oluşturduğum basit UML diyagramı şekilde gözükmektedir.
+
+image::..\Desktop\uml0.PNG[]
+
+Bütün classların package leri org.domain.account seçilmiştir.Boolean türünde fonksiyon oluşturulmuştur.
+
+
+image::..\Desktop\umlresim4.PNG[]
+Account implements edilerek SavingsAccount oluşturulmuştur.
+
+
+
+image::..\Desktop\Umlresim3.PNG[]
+Account implements edilerek CheckingAccount oluşturulmuştur.

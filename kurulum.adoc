@@ -1,0 +1,67 @@
+*MongoDB Kurulum*
+
+image::Desktop\resimler\MongoDB0.PNG[]
+
+
+image::Desktop\resimler\mondo1.PNG[]
+
+İlk olarak mongoDB'nin kendi web sayfasından install işlemi yapıldı.
+
+image::Desktop\resimler\Mongo2.PNG[]
+
+Bilgisayar-> C'nin altında data adından bir klasör oluşturduk.Bu işlem yapılmazsa hata alınacaktır çünkü MongoDB verileri bu klasöre depolar.Data klasörünün içerisine de db adında bir klasör oluşturduk.
+MongoDB komut ekranından çalıştırılabilir.Yönetimsel kısım olan mongod çalıştırıldığından mongoDB'nin 27017 portunda çalışmakta olduğu görülür.
+
+image::Desktop\resimler\Mongo3.PNG[]
+
+Yeni bir cmd ekranında mongo yani işlemlerin yapılacağı arayüz kullanılacaktır.
+
+image::Desktop\resimler\Mongo4.PNG[]
+
+Bu cmd ekranından yapılan testlerde diğer cmd ekranında da connection olduğu görülmektedir.Bağlantı komutlarla test edilmiştir.
+
+
+image::Desktop\resimler\Mongo5.PNG[]
+
+C -> MongoDB altında log dosyası oluşturuldu.Cmd yönetici olarak çalıştırıldı.İlk komutla beraber bir config dosyası oluşturulacak ve ardından oluşturulacak.Daha sonra servis başlatılıcak.
+
+image::Desktop\resimler\Mongo6.PNG[]
+
+Çalışır durumda olduğu buradan görülmektedir.
+
+image::Desktop\resimler\Mongo7.PNG[]
+Sistem durduruluyor.
+
+image::Desktop\resimler\Mongo8.PNG[]
+
+Sistemin çalışmadığı görülmektedir.
+
+image::Desktop\resimler\Mongodb9.PNG[]
+Servis siliniyor.
+
+*Nodejs Kurulumu*
+
+image::Desktop\resimler\Node1.PNG[]
+
+Nodejs resmi sitesinden install işlemi yapıldı.
+
+
+image::Desktop\resimler\Node2.PNG[]
+
+Cmd ekranından başarılı inip inmediği kontrol edildi.Bu kısımdan sonra Visual Studio platformunda yazılan kodlar Nodejsle bağlantılı olarak çalıştırılabilir.
+
+*Express Kurulumu*
+
+image::Desktop\resimler\express1.PNG[]
+
+Komut satırından yazılan npm install express --save komutuyla express modülünün indirme işlemi yapılır.
+
+
+
+*MongoDB çalışmalarıma ait robomongo görüntüleri*
+
+
+image::..\Desktop\ödev\ss\1.PNG[]
+
+
+image::..\Desktop\ödev\ss\2.PNG[]
